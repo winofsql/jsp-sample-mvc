@@ -1,6 +1,6 @@
 # jsp-sample-mvc
 
-web.xml の 246 行目からを置き換え
+## web.xml の 246 行目からを置き換え
 
 ```xml
     <servlet>
