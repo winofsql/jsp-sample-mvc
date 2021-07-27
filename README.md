@@ -1,4 +1,4 @@
-# jsp-sample-mvc
+# jsp-template-mvc
 MVC のテンプレート
 
 ## web.xml の 246 行目からを置き換え
