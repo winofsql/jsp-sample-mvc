@@ -2,7 +2,7 @@
 MVC のテンプレート
 
 ## server.xml の 71 行目からを置き換え( URIEncoding="UTF-8" )
-```
+```xml
     <Connector port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443"
