@@ -50,12 +50,10 @@ if ( request.getMethod().equals( "GET" ) ) {
 // *************************************
 if ( request.getMethod().equals( "POST" ) ) {
 
-    int cnt = 0;
     for( String value : month2 ) {
     
         // 変更可能な ArrayList に 英語月名を追加
-        listMonth2.add( month2[cnt] );
-        cnt++;
+        listMonth2.add( value );
         
     }
 
