@@ -1,7 +1,7 @@
 <%@ page
-	language="java"
-	import="java.util.*"
-	contentType="text/html;charset=utf-8" %>
+    language="java"
+    import="java.util.*"
+    contentType="text/html;charset=utf-8" %>
 <%@ include file="model.jsp" %>
 <%
 // *********************************************************
@@ -42,7 +42,7 @@ StringBuilder sb = new StringBuilder();
 // *************************************
 if ( request.getMethod().equals( "GET" ) ) {
 
-	sb.append( getData( request, "field1") );
+    sb.append( getData( request, "field1") );
 
 }
 // *************************************
@@ -50,21 +50,21 @@ if ( request.getMethod().equals( "GET" ) ) {
 // *************************************
 if ( request.getMethod().equals( "POST" ) ) {
 
-	int cnt = 0;
-	for( String value : month2 ) {
-	
-		// 変更可能な ArrayList に 英語月名を追加
-		listMonth2.add( month2[cnt] );
-		cnt++;
-		
-	}
+    int cnt = 0;
+    for( String value : month2 ) {
+    
+        // 変更可能な ArrayList に 英語月名を追加
+        listMonth2.add( month2[cnt] );
+        cnt++;
+        
+    }
 
-	// forEach + ラムダ式 で表示用文字列を作成
-	listMonth2.forEach( (value) -> {
-	
-		sb.append( String.format( "%s - %s<br>", value, getData( request, "field2") )); 
+    // forEach + ラムダ式 で表示用文字列を作成
+    listMonth2.forEach( (value) -> {
+    
+        sb.append( String.format( "%s - %s<br>", value, getData( request, "field2") )); 
 
-	});
+    });
 
 }
 
