@@ -23,7 +23,7 @@ String[] month2 = {
 };
 
 // *************************************
-// month1 => ArrayList に変換 ( 変更不可 )
+// month1 => List に変換 ( 追加不可 )
 // *************************************
 List<String> listMonth1 = Arrays.asList( month1 );
 
