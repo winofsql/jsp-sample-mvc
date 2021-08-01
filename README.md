@@ -1,7 +1,7 @@
 # jsp-template-mvc
 MVC のテンプレート
 
-## web.xml の 103 行目からを置き換え
+## web.xml の 103 行目からを置き換え( listings : true )
 
 ```xml
     <servlet>
@@ -12,7 +12,7 @@ MVC のテンプレート
             <param-value>0</param-value>
         </init-param>
         <init-param>
-            <param-name>**listings**</param-name>
+            <param-name>listings</param-name>
             <param-value>true</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
