@@ -57,3 +57,14 @@ MVC のテンプレート
         <load-on-startup>3</load-on-startup>
     </servlet>
 ```
+
+## lightbox.xml : "C:\xampp\tomcat\conf\Catalina\localhost\lightbox.xml"
+```xml
+<Context
+	displayName="Web Application Home"
+	docBase="c:\app\tomcat21"
+	path="/lightbox"
+	reloadable="true"
+	useNaming="false">
+</Context>
+```
