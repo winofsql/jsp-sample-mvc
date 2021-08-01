@@ -1,6 +1,15 @@
 # jsp-template-mvc
 MVC のテンプレート
 
+## server.xml の 71 行目からを置き換え( URIEncoding="UTF-8" )
+```
+    <Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443"
+               URIEncoding="UTF-8" />
+
+```
+
 ## web.xml の 103 行目からを置き換え( listings : true )
 
 ```xml
