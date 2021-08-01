@@ -28,9 +28,9 @@ String[] month2 = {
 List<String> listMonth1 = Arrays.asList( month1 );
 
 // *************************************
-// 変更可能な ArrayList に再変換
+// 追加可能な ArrayList に再変換
 // *************************************
-List<String> listMonth2 = new ArrayList( listMonth1 );
+ArrayList<String> listMonth2 = new ArrayList( listMonth1 );
 
 // *************************************
 // 表示部分に埋め込むための文字列用
