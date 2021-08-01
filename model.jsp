@@ -4,11 +4,11 @@
 // *********************************************************
 public String getData( HttpServletRequest request,String name ) {
 
-	String value = request.getParameter( name );
-	if ( value == null ) {
-		value = "";
-	}
+    String value = request.getParameter( name );
+    if ( value == null ) {
+        value = "";
+    }
 
-	return value;
+    return value;
 }
 %>
